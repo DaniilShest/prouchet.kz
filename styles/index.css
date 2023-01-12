@@ -111,7 +111,7 @@ body {
   font-weight: 700;
   font-size: 30px;
 }
-@media (max-width: 760px) {
+@media (max-width: 720px) {
   .title {
     font-size: 24px;
   }
@@ -121,6 +121,11 @@ body {
   padding-bottom: 60px;
   position: relative;
   z-index: 5;
+}
+@media (max-width: 720px) {
+  .header {
+    padding-bottom: 20px;
+  }
 }
 .header__top {
   display: -webkit-box;
@@ -291,6 +296,19 @@ body {
           box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
 }
 
+.mobile_menu__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .mobile_menu.open {
   top: 0;
   opacity: 1;
@@ -311,15 +329,15 @@ body {
 }
 
 .nav_a.mobile {
-  padding: 20px 0;
+  padding: 10px 0;
   margin: 5px 0;
-  background-color: #FF5362;
-  border-radius: 20px;
-  color: #FFFFFF;
+  color: #232323;
+  font-size: 18px;
 }
 
-.nav_a.mobile:hover {
-  color: #fff;
+.mobile_social {
+  margin-top: 20px;
+  display: block;
 }
 
 .main {
@@ -390,6 +408,11 @@ body {
     font-size: 16px;
   }
 }
+@media (max-width: 720px) {
+  .main__subtitle {
+    margin-bottom: 30px;
+  }
+}
 .main__btn {
   color: #FFFFFF;
   font-weight: 700;
@@ -432,7 +455,7 @@ body {
 .services {
   margin-bottom: 70px;
 }
-@media (max-width: 500px) {
+@media (max-width: 720px) {
   .services {
     margin-bottom: 30px;
   }
@@ -601,6 +624,11 @@ body {
 .request {
   margin-bottom: 70px;
 }
+@media (max-width: 720px) {
+  .request {
+    margin-bottom: 30px;
+  }
+}
 .request__body {
   width: 100%;
   padding: 50px 30px;
@@ -727,6 +755,11 @@ body {
 .contacts {
   margin-bottom: 60px;
 }
+@media (max-width: 720px) {
+  .contacts {
+    margin-bottom: 30px;
+  }
+}
 .contacts__body {
   margin-top: 30px;
   display: -webkit-box;
@@ -739,8 +772,9 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-@media (max-width: 690px) {
+@media (max-width: 720px) {
   .contacts__body {
+    margin-top: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -768,7 +802,7 @@ body {
     display: block;
   }
 }
-@media (max-width: 690px) {
+@media (max-width: 720px) {
   .contacts__map-tablet {
     display: none;
   }
@@ -776,7 +810,7 @@ body {
 .contacts__map-mobile {
   display: none;
 }
-@media (max-width: 690px) {
+@media (max-width: 720px) {
   .contacts__map-mobile {
     display: block;
     width: 100%;

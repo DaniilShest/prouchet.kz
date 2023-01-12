@@ -2,13 +2,18 @@
 
     margin-bottom: 60px;
 
+    @media (max-width:720px) {
+        margin-bottom: 30px;
+    }
+
     &__body {
         margin-top: 30px;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
-        @media (max-width:690px) {
+        @media (max-width:720px) {
+            margin-top: 20px;
             flex-direction: column-reverse;
             width: 100%;
         }
@@ -35,7 +40,7 @@
             display: block;
         }
 
-        @media (max-width:690px) {
+        @media (max-width:720px) {
             display: none;
         }
 
@@ -44,7 +49,7 @@
     &__map-mobile {
         display: none;
 
-        @media (max-width:690px) {
+        @media (max-width:720px) {
             display: block;
             width: 100%;
             margin-bottom: 20px;

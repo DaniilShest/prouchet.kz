@@ -3,6 +3,10 @@
     position: relative;
     z-index: 5;
 
+    @media (max-width:720px) {
+        padding-bottom: 20px;
+    }
+
     &__top {
         display: flex;
         justify-content: space-between;
@@ -156,6 +160,12 @@
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
 }
 
+.mobile_menu__body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .mobile_menu.open {
     top: 0;
     opacity: 1;
@@ -169,13 +179,13 @@
 }
 
 .nav_a.mobile {
-    padding: 20px 0;
+    padding: 10px 0;
     margin: 5px 0;
-    background-color: #FF5362;
-    border-radius: 20px;
-    color: #FFFFFF;
+    color: #232323;
+    font-size: 18px;
 }
 
-.nav_a.mobile:hover {
-    color: #fff;
+.mobile_social {
+    margin-top: 20px;
+    display: block;
 }
