@@ -221,9 +221,9 @@ body {
 @media (max-width: 700px) {
   .main__body {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 }
 .main__info {
@@ -265,11 +265,6 @@ body {
 @media (max-width: 1000px) {
   .main__subtitle {
     font-size: 16px;
-  }
-}
-@media (max-width: 420px) {
-  .main__subtitle {
-    display: none;
   }
 }
 .main__btn {
@@ -720,6 +715,9 @@ body {
 }
 .footer__left {
   max-width: 340px;
+}
+.footer__logo {
+  margin-bottom: 10px;
 }
 .footer__subtitle {
   font-size: 12px;
