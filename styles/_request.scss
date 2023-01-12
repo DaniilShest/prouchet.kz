@@ -1,0 +1,114 @@
+.request {
+    margin-bottom: 70px;
+
+    &__body {
+        width: 100%;
+        padding: 50px 30px;
+        background: #6319C3;
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+
+        @media (max-width:560px) {
+            padding: 20px 15px;
+        }
+    }
+
+    &__img {
+        opacity: 0.1;
+        position: absolute;
+        top: -50px;
+        left: 500px;
+        z-index: 1;
+
+        @media (max-width:1140px) {
+            left: 400px;
+        }
+
+        @media (max-width:800px) {
+            left: 200px;
+            top: 20px;
+        }
+    }
+
+    &__title {
+        color: #FFFFFF;
+        font-size: 34px;
+        max-width: 370px;
+        margin-bottom: 24px;
+
+        @media (max-width:560px) {
+            font-size: 26px;
+            max-width: 320px;
+        }
+    }
+
+    &__input {
+        width: 35%;
+        color: #232323;
+        border: none;
+        background: #FFFFFF;
+        padding: 16px 0 16px 30px;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-right: 27px;
+
+        &:focus {
+            outline: none;
+        }
+
+        @media (max-width:800px) {
+            display: block;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        @media (max-width:560px) {
+            font-size: 16px;
+
+            padding: 10px 0 10px 20px;
+        }
+    }
+
+    &__btn {
+        background: #FF5362;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        width: 25%;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all .2s ease;
+
+        &:hover {
+            background: #FFFFFF;
+            color: #232323;
+        }
+
+        @media (max-width:800px) {
+            padding: 20px 0;
+            display: block;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        @media (max-width:560px) {
+            font-size: 16px;
+            padding: 10px 0;
+        }
+    }
+}
+
+.form {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+
+    @media (max-width:800px) {
+        flex-direction: column;
+    }
+}
