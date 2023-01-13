@@ -1,6 +1,5 @@
 const burger = document.querySelector(".burger")
 const mobileMenu = document.querySelector(".mobile_menu")
-document.cookie = "user=John; samesite=secure"
 const anchors = document.querySelectorAll('a[href*="#"]')
 
 for (let anchor of anchors) {
