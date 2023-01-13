@@ -10,7 +10,7 @@
         align-items: flex-start;
         justify-content: space-between;
 
-        @media (max-width: 7200px) {
+        @media (max-width: 720px) {
             flex-direction: column;
             align-items: center;
         }
@@ -22,6 +22,12 @@
 
     &__logo {
         margin-bottom: 10px;
+
+        @media (max-width: 720px) {
+            width: 250px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
     }
 
     &__subtitle {
@@ -79,7 +85,7 @@
         display: block;
         text-align: center;
         margin-top: 30px;
-        font-size: 12px;
+        font-size: 14px;
         color: #5A5A5A;
     }
 }

@@ -1,6 +1,8 @@
 .services {
     margin-bottom: 70px;
 
+    padding-top: 80px;
+
     @media (max-width:720px) {
         margin-bottom: 30px;
     }
@@ -11,7 +13,7 @@
         justify-content: space-between;
         margin-bottom: 50px;
 
-        @media (max-width:500px) {
+        @media (max-width:720px) {
             margin-bottom: 20px;
         }
     }
@@ -46,7 +48,6 @@
     }
 
     &__card {
-        // max-width: 380px;
         padding: 30px 40px 50px 40px;
         background: #F5F5F5;
         border-radius: 10px;
@@ -75,7 +76,7 @@
         font-size: 20px;
 
         @media (max-width:760px) {
-            font-size: 14px;
+            font-size: 16px;
         }
     }
 }

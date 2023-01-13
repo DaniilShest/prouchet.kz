@@ -4,7 +4,12 @@
     z-index: 5;
 
     @media (max-width:720px) {
-        padding-bottom: 20px;
+        padding-bottom: 0px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0;
+        background: #FFFFFF;
     }
 
     &__top {
@@ -72,7 +77,7 @@
         }
 
         a {
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 500;
             transition: all .2s ease;
 
@@ -85,6 +90,7 @@
 
 .phone {
     font-weight: 700;
+    font-size: 16px;
 }
 
 .burger {
@@ -145,10 +151,13 @@
 
 
 .mobile_menu {
-    position: absolute;
+    position: fixed;
     width: 100%;
-    padding-top: 110px;
-    padding-bottom: 30px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     left: 0;
     right: 0;
     z-index: 3;

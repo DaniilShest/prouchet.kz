@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 
-<body>
+<body id="main">
     <header class="header">
         <div class="container">
             <div class="header__top">
@@ -46,10 +46,10 @@
             <div class="header__bottom">
                 <nav class="nav">
                     <ul class="nav__links">
-                        <li class="nav__link"><a href="">Главная</a></li>
-                        <li class="nav__link"><a href="">Услуги</a></li>
-                        <li class="nav__link"><a href="">Оставить заявку</a></li>
-                        <li class="nav__link"><a href="">Контакты</a></li>
+                        <li class="nav__link"><a href="#main">Главная</a></li>
+                        <li class="nav__link"><a href="#services">Услуги</a></li>
+                        <li class="nav__link"><a href="#request">Оставить заявку</a></li>
+                        <li class="nav__link"><a href="#contacts">Контакты</a></li>
                     </ul>
                 </nav>
                 <a class="phone" href="tel:+77778442220">8-777-844-22-20</a>
@@ -61,30 +61,32 @@
         <div class="container">
             <div class="mobile_menu__body">
                 <nav class="nav_mobile">
-                    <a class="nav_a mobile" href="#headest">Главная</a>
-                    <a class="nav_a mobile" href="#can">Услуги</a>
+                    <a class="nav_a mobile" href="#main">Главная</a>
+                    <a class="nav_a mobile" href="#services">Услуги</a>
                     <a class="nav_a mobile" href="#request">Оставить заявку</a>
                     <a class="nav_a mobile" href="#contacts">Контакты</a>
                 </nav>
                 <div class="social mobile_social">
                     <ul class="social__links">
                         <li class="social__link">
-                            <a href="mailto:prouchet2022@mail.ru"><img src="img/header/Почта.svg" alt="Почта">
+                            <a target="_blank" href="mailto:prouchet2022@mail.ru"><img src="img/header/Почта.svg"
+                                    alt="Почта">
                             </a>
                         </li>
                         <li class="social__link">
-                            <a href="https://www.instagram.com/prouchet2022/">
+                            <a target="_blank" href="https://www.instagram.com/prouchet2022/">
                                 <img src="img/header/Инста.svg" alt="Инстаграм">
                             </a>
                         </li>
                         <li class="social__link">
-                            <a
+                            <a target="_blank"
                                 href="https://api.whatsapp.com/send/?phone=%2B77778442220&text&type=phone_number&app_absent=0">
                                 <img src="img/header/Ватсап.svg" alt="WhatsApp">
                             </a>
                         </li>
                         <li class="social__link">
-                            <a href="https://t.me/ProUchet2022"><img src="img/header/Телега.svg" alt="Телеграм"></a>
+                            <a target="_blank" href="https://t.me/ProUchet2022"><img src="img/header/Телега.svg"
+                                    alt="Телеграм"></a>
                         </li>
                     </ul>
                 </div>
@@ -106,11 +108,11 @@
         </div>
     </section>
 
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
             <div class="services__wrapper">
                 <div class="title">Услуги</div>
-                <a class="services__download" href="">Скачать полный список услуг</a>
+                <a class="services__download" href="docs/Прайс prouchet.pdf" download>Скачать полный список услуг</a>
             </div>
             <div class="services__cards">
                 <div class="services__card">
@@ -145,7 +147,7 @@
         </div>
     </section>
 
-    <section class="request">
+    <section class="request" id="request">
         <div class="container">
             <div class="request__body">
                 <img class="request__img" src="img/request/logo.svg" alt="logo">
@@ -161,22 +163,24 @@
         </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="contacts">
         <div class="container">
             <h1 class="title">Контакты</h1>
             <div class="contacts__body">
                 <div class="contacts__info">
                     <div class="contact">
                         <h3 class="contact__title">Телефон:</h3>
-                        <a href="" class="contact__value">8-777-844-22-20</a>
+                        <a href="tel:+77778442220" class="contact__value">8-777-844-22-20</a>
                     </div>
                     <div class="contact">
                         <h3 class="contact__title">Emai:</h3>
-                        <a href="" class="contact__value">prouchet2022@mail.ru</a>
+                        <a href="mailto:prouchet2022@mail.ru" class="contact__value">prouchet2022@mail.ru</a>
                     </div>
                     <div class="contact">
                         <h3 class="contact__title">Адрес:</h3>
-                        <a href="" class="contact__value">г.Костанай, ул.Генерала Арыстанбекова, 1</a>
+                        <a target="_blank" href="https://yandex.kz/maps/-/CCUvVEdS1D" class="contact__value">г.Костанай,
+                            ул.Генерала
+                            Арыстанбекова, 1</a>
                     </div>
                 </div>
                 <div class="contacts__map contacts__map-desctop">
@@ -209,10 +213,10 @@
                 <div class="footer__center">
                     <nav class="nav">
                         <ul class="nav__links footer__links">
-                            <li class="nav__link"><a href="">Главная</a></li>
-                            <li class="nav__link"><a href="">Оставить заявку</a></li>
-                            <li class="nav__link"><a href="">Услуги</a></li>
-                            <li class="nav__link"><a href="">Контакты</a></li>
+                            <li class="nav__link"><a href="#main">Главная</a></li>
+                            <li class="nav__link"><a href="#request">Оставить заявку</a></li>
+                            <li class="nav__link"><a href="#services">Услуги</a></li>
+                            <li class="nav__link"><a href="#contacts">Контакты</a></li>
                         </ul>
                     </nav>
                     <div class="social">
@@ -222,28 +226,30 @@
                                 </a>
                             </li>
                             <li class="social__link">
-                                <a href="https://www.instagram.com/prouchet2022/">
+                                <a target="_blank" href="https://www.instagram.com/prouchet2022/">
                                     <img src="img/footer/Инста.svg" alt="Инстаграм">
                                 </a>
                             </li>
                             <li class="social__link">
-                                <a
+                                <a target="_blank"
                                     href="https://api.whatsapp.com/send/?phone=%2B77778442220&text&type=phone_number&app_absent=0">
                                     <img src="img/footer/Ватсап.svg" alt="WhatsApp">
                                 </a>
                             </li>
                             <li class="social__link">
-                                <a href="https://t.me/ProUchet2022"><img src="img/footer/Телега.svg" alt="Телеграм"></a>
+                                <a target="_blank" href="https://t.me/ProUchet2022"><img src="img/footer/Телега.svg"
+                                        alt="Телеграм"></a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="footer__right">
-                    <a href="" class="contact__value">8-777-844-22-20</a>
+                    <a href="tel:+77778442220" class="contact__value">8-777-844-22-20</a>
 
-                    <a href="" class="contact__value">prouchet2022@mail.ru</a>
+                    <a href="mailto:prouchet2022@mail.ru" class="contact__value">prouchet2022@mail.ru</a>
 
-                    <a href="" class="contact__value">г.Костанай, ул.Генерала Арыстанбекова, 1</a>
+                    <a target="_blank" href="https://yandex.kz/maps/-/CCUvVEdS1D" class="contact__value">г.Костанай,
+                        ул.Генерала Арыстанбекова, 1</a>
                 </div>
             </div>
             <a href="" class="policy">Политика конфеденциальности</a>
