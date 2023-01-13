@@ -10,9 +10,11 @@ for (let anchor of anchors) {
         const blockID = anchor.getAttribute('href').substr(1)
 
         if (window.innerWidth <= 720) {
-            burger.classList.toggle("open")
-            mobileMenu.classList.toggle("open")
-            document.body.classList.toggle("lock")
+            if (!document.querySelector('footer').contains(anchor) && !anchor.classList.contains("main__btn")) {
+                burger.classList.toggle("open")
+                mobileMenu.classList.toggle("open")
+                document.body.classList.toggle("lock")
+            }
         }
 
         let blockValue = blockID === "request" || blockID === "contacts" ? "center" : "start"

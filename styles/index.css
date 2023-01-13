@@ -971,3 +971,116 @@ body.lock {
   font-size: 14px;
   color: #5A5A5A;
 }
+
+.policy__title {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-top: 80px;
+}
+
+.policy__text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.thanks__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+.thanks__img {
+  max-width: 200px;
+}
+.thanks__title {
+  padding: 40px 0;
+  text-align: center;
+}
+.thanks__btn {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 20px 45px;
+  background: #FF5362;
+  border-radius: 10px;
+  border: 2px solid #FF5362;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+@media (max-width: 1000px) {
+  .thanks__btn {
+    font-size: 14px;
+  }
+}
+@media (max-width: 720px) {
+  .thanks__btn {
+    padding: 20px 60px;
+  }
+}
+.thanks__btn:hover {
+  background: transparent;
+  color: #FF5362;
+}
+
+.not_found__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+.not_found__title {
+  font-size: 120px;
+  font-weight: 700;
+  color: #FF5362;
+  text-align: center;
+}
+.not_found__subtitle {
+  padding: 40px 0;
+  text-align: center;
+}
+.not_found__btn {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 20px 45px;
+  background: #FF5362;
+  border-radius: 10px;
+  border: 2px solid #FF5362;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+@media (max-width: 1000px) {
+  .not_found__btn {
+    font-size: 14px;
+  }
+}
+@media (max-width: 720px) {
+  .not_found__btn {
+    padding: 20px 60px;
+  }
+}
+.not_found__btn:hover {
+  background: transparent;
+  color: #FF5362;
+}
