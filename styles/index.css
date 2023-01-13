@@ -1007,31 +1007,6 @@ body.lock {
   padding: 40px 0;
   text-align: center;
 }
-.thanks__btn {
-  color: #FFFFFF;
-  font-weight: 700;
-  font-size: 16px;
-  padding: 20px 45px;
-  background: #FF5362;
-  border-radius: 10px;
-  border: 2px solid #FF5362;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-@media (max-width: 1000px) {
-  .thanks__btn {
-    font-size: 14px;
-  }
-}
-@media (max-width: 720px) {
-  .thanks__btn {
-    padding: 20px 60px;
-  }
-}
-.thanks__btn:hover {
-  background: transparent;
-  color: #FF5362;
-}
 
 .not_found__body {
   display: -webkit-box;
